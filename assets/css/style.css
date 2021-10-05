@@ -3,30 +3,110 @@
     padding: 0;
     box-sizing: border-box;
   }
-  :root {
-    --primary-color: var(--primary-color);
-    --secondary-color: var(--secondary-color);
-    --tertiary-color: var(--tertiary-color);
-  }
+
 /* apply styles to <header> */
 header {
-  display: flex;
-  justify-content: space-between;  
-  flex-wrap: wrap;
-  padding: 20px 35 px;
-  background-color: var(--tertiary-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  position: sticky;
-  top:0;
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
-  position: -webkit-sticky;
-  z-index: 9999;
+    display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    position: sticky;
+    top:0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    position: -webkit-sticky;
+    z-index: 9999;
 }
 
-.header h1 .lastname {
-    color: blue;
+.name {
+    font-size: 1.50vw;
+    background: -webkit-linear-gradient(#eee, rgb(52, 110, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.title {
+    font-size: 1.75vw;
+    color:white;
+    font-family: fantasy;
+}
+.lastname {
+    font-size: 1.90vw;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+  
+}
+
+header nav ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color:rgb(52, 110, 148);
+}
+
+.aboutme{
+    margin-top: 50px;
+}
+.aboutme h2{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(52, 110, 148);
+    float:left;
+    font-size: 1.75vw;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    
+}
+.aboutme p{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: solid rgb(52, 110, 148);
+    padding: 10px;
+    font-size: 1.55vw;
+    justify-content: right;
+    margin-right: 20px;
+}
+.aboutme img{
+    max-width: 20%;
+    margin-right: 20px;
+   
+}
+
+.mywork h2{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(52, 110, 148);
+    float:left;
+    font-size: 1.75vw;
+    padding-top: 10px;
+    padding-right: 13px;
+    margin-left: 50px;
+    
+}
+.mywork p{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: solid rgb(52, 110, 148);
+    padding: 10px;
+    font-size: 1.55vw;
+    justify-content: right;
+    margin-right: 20px;
