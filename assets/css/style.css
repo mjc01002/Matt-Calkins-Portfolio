@@ -91,22 +91,100 @@ header nav ul li a {
    
 }
 
+.mywork {
+    display: flex;
+    flex-wrap: wrap;
+    border:10px;
+    
+
+}
+
 .mywork h2{
+    border-right: solid rgb(52, 110, 148);
+    color:rgb(52, 110, 148);
+    font-size: 1.75vw;
+    padding-top: 10px;
+    padding-right: 13px;
+    margin-left: 50px;
+    height: 200px;
+    background-color: gray;
+    
+}
+.mywork a{
+    font-size: 1.55vw;
+    margin-right: 50px;
+}
+
+.mainwork {
+    width: 75%;
+    height: 200px;
+    background-color: rgba(0, 128, 128, 0.164);
+    
+    
+}
+
+.mainwork:hover{
+    background-color:rgba(0, 128, 128, 0.76);
+}
+.mainwork a{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mainwork img{
+    max-width: 75%;
+    max-height: 200px;
+    z-index: 9999;
+}
+
+.box2{
+    background-color:blue;
+    width: 37.5%;
+    height: 200px;
+    align-items: center;
+    
+    
+
+}
+.box3{
+    background-color: tomato;
+    width: 37.5%;
+    height: 200px;
+    align-self:center;
+}
+
+.box4{
+ background-color: violet;
+ width: 37.5%;
+ height: 200px;
+}
+
+.box5{
+background-color: yellow;
+width: 37.5%;
+height: 200px;
+}
+
+
+
+.contactme h2{
+    margin-top:50px;
     display: flex;
     flex-wrap: wrap;
     color:rgb(52, 110, 148);
     float:left;
     font-size: 1.75vw;
     padding-top: 10px;
-    padding-right: 13px;
+    padding-right: 10px;
     margin-left: 50px;
-    
-}
-.mywork p{
+   }
+
+.contactme p{
     display: flex;
     flex-wrap: wrap;
     border-left: solid rgb(52, 110, 148);
+    display:inline;
     padding: 10px;
     font-size: 1.55vw;
-    justify-content: right;
     margin-right: 20px;
+}
