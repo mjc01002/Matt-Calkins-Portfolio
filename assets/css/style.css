@@ -91,36 +91,40 @@ header nav ul li a {
    
 }
 
-.mywork {
-    display: flex;
-    flex-wrap: wrap;
-    border:10px;
-    
-
-}
 
 .mywork h2{
-    border-right: solid rgb(52, 110, 148);
+    display: flex;
+    flex-wrap: wrap;
     color:rgb(52, 110, 148);
+    float:left;
     font-size: 1.75vw;
     padding-top: 10px;
-    padding-right: 13px;
+    padding-right: 10px;
     margin-left: 50px;
-    height: 200px;
-    background-color: gray;
+    height: 1000px;
+   
     
 }
+.mywork p{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 1.55vw;
+    margin-right: 20px;
+}
+
 .mywork a{
     font-size: 1.55vw;
     margin-right: 50px;
 }
 
 .mainwork {
+    display: flex;
+    flex-wrap: wrap;
     width: 75%;
     height: 200px;
     background-color: rgba(0, 128, 128, 0.164);
-    
-    
+    border-left: solid rgb(52, 110, 148);
 }
 
 .mainwork:hover{
@@ -138,31 +142,35 @@ header nav ul li a {
 }
 
 .box2{
+    display: flex;
+    flex-wrap: wrap;
     background-color:blue;
     width: 37.5%;
     height: 200px;
-    align-items: center;
     
-    
-
 }
 .box3{
+    display: flex;
+    flex-wrap:wrap-reverse;
     background-color: tomato;
     width: 37.5%;
     height: 200px;
-    align-self:center;
+    
 }
-
 .box4{
- background-color: violet;
- width: 37.5%;
- height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: violet;
+    width: 37.5%;
+    height: 200px;
 }
 
 .box5{
-background-color: yellow;
-width: 37.5%;
-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    width: 37.5%;
+    height: 200px;
 }
 
 
