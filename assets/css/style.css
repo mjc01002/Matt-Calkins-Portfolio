@@ -79,7 +79,7 @@ header nav ul li a {
 .aboutme p{
     display: flex;
     flex-wrap: wrap;
-    border-left: solid rgb(52, 110, 148);
+    border-left: solid 5px rgb(52, 110, 148);
     padding: 10px;
     font-size: 1.55vw;
     justify-content: right;
@@ -95,23 +95,22 @@ header nav ul li a {
 .myworkboxes {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .myworkboxes {
     display: flex;
     flex-wrap: wrap;
 }
+
 .mywork h2{
- 
     color:rgb(52, 110, 148);
     float:left;
     font-size: 1.75vw;
     padding-top: 10px;
     padding-right: 10px;
-    margin-left: 50px;
+    margin-left: 55px;
     height: 600px;
-    border-right: solid rgb(52, 110, 148);
+    border-right: solid 5px rgb(52, 110, 148);
 }
 
 .mainwork {
@@ -120,24 +119,29 @@ header nav ul li a {
     background-color: rgba(0, 128, 128, 0.164);
     border: solid 10px rgb(255, 255, 255);
     margin-left: 50px;
-}
-
-.mainwork:hover{
-    background-color:rgba(0, 128, 128, 0.76);
-}
-
-.mainworkbox{
-    height: 50px;
-    width: 50px;
-    background-color: green;
+    background-image:url("/assets/images/Horiseon.PNG");
+    overflow: hidden;
     
 }
+.mainworkbox{
+    position:relative;
+    bottom: 200px;
+    left: 250px;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    z-index: 9998;
+}  
+
 .mainwork img{
-    max-width: 300px;
-    max-height: 150px;
+    height: 2000px;
+    width:2000px;
     z-index: 9999;
-    margin-left: 120px;
-    margin-top: 15px;
+    
+}
+
+.mainwork img:hover{
+    filter:brightness(130%);
 }
 
 .box2{
