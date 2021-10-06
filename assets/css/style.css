@@ -61,7 +61,7 @@ header nav ul li a {
     font-size: 1.55vw;
     color:rgb(52, 110, 148);
 }
-
+/*About Me Section*/
 .aboutme{
     margin-top: 50px;
 }
@@ -91,89 +91,105 @@ header nav ul li a {
    
 }
 
-
-.mywork h2{
+/*My Work Section*/
+.myworkboxes {
     display: flex;
     flex-wrap: wrap;
+
+}
+
+.myworkboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mywork h2{
+ 
     color:rgb(52, 110, 148);
     float:left;
     font-size: 1.75vw;
     padding-top: 10px;
     padding-right: 10px;
     margin-left: 50px;
-    height: 1000px;
-   
-    
-}
-.mywork p{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    font-size: 1.55vw;
-    margin-right: 20px;
-}
-
-.mywork a{
-    font-size: 1.55vw;
-    margin-right: 50px;
+    height: 600px;
+    border-right: solid rgb(52, 110, 148);
 }
 
 .mainwork {
-    display: flex;
-    flex-wrap: wrap;
     width: 75%;
     height: 200px;
     background-color: rgba(0, 128, 128, 0.164);
-    border-left: solid rgb(52, 110, 148);
+    border: solid 10px rgb(255, 255, 255);
+    margin-left: 50px;
 }
 
 .mainwork:hover{
     background-color:rgba(0, 128, 128, 0.76);
 }
-.mainwork a{
-    display: flex;
-    flex-wrap: wrap;
+
+.mainworkbox{
+    height: 50px;
+    width: 50px;
+    background-color: green;
     
 }
 .mainwork img{
-    max-width: 75%;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 150px;
     z-index: 9999;
+    margin-left: 120px;
+    margin-top: 15px;
 }
 
 .box2{
-    display: flex;
-    flex-wrap: wrap;
-    background-color:blue;
+    
+    background-color: rgba(0, 128, 128, 0.164);
+    border: solid 10px rgb(255, 255, 255);
     width: 37.5%;
     height: 200px;
+    margin-left: 50px;
     
 }
+
+.box2:hover{
+    background-color:rgba(0, 128, 128, 0.76);
+}
+
 .box3{
-    display: flex;
-    flex-wrap:wrap-reverse;
-    background-color: tomato;
+
+    background-color: rgba(0, 128, 128, 0.164);
+    border: solid 10px rgb(255, 255, 255);
     width: 37.5%;
     height: 200px;
     
 }
+.box3:hover{
+    background-color:rgba(0, 128, 128, 0.76);
+}
+
 .box4{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: violet;
+  
+    background-color: rgba(0, 128, 128, 0.164);
+    border: solid 10px rgb(255, 255, 255);
     width: 37.5%;
     height: 200px;
+    margin-left: 50px;
+}
+
+.box4:hover{
+    background-color:rgba(0, 128, 128, 0.76);
 }
 
 .box5{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: yellow;
+    
+    background-color: rgba(0, 128, 128, 0.164);
+    border: solid 10px rgb(255, 255, 255);
     width: 37.5%;
     height: 200px;
 }
 
-
+.box5:hover{
+    background-color:rgba(0, 128, 128, 0.76);
+}
 
 .contactme h2{
     margin-top:50px;
