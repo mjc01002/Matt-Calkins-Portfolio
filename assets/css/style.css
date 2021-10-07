@@ -11,6 +11,10 @@
     --red: rgb(240,78,34);
     --green: rgb(132,189,151)
 }
+
+:target {
+    background-color: var(--highlight);
+  }
 /* apply styles to <header> */
 header {
     display: flex;
@@ -79,6 +83,7 @@ body{
 .aboutme{
     margin-top: 50px;
 }
+
 .aboutme h2{
   
     color:var(--background);
@@ -121,7 +126,7 @@ body{
     padding-top: 10px;
     padding-right: 10px;
     margin-left: 70px;
-    height: 640px;
+    height: 600px;
     border-right: solid 5px var(--background);
 }
 
@@ -132,11 +137,10 @@ body{
     height: 200px;
     border: solid 5px var(--background);
     margin-left: 50px;
-    margin-bottom:16px;
     background-image:url("/assets/images/Horiseon.PNG");
-    overflow: clip;
-    
+    overflow: clip;  
 }
+
 .mainwork h4{
     color:var(--background);
     font-size: 1.75vw;
@@ -160,7 +164,6 @@ body{
     width: 37.5%;
     height: 200px;
     margin-left: 50px;
-    margin-right:16px;
     overflow: clip; 
 }
 
@@ -209,8 +212,6 @@ body{
     width: 37.5%;
     height: 200px;
     margin-left: 50px;
-    margin-top:16px;
-    margin-right:16px;
     overflow: clip;
 }
 
@@ -236,7 +237,6 @@ body{
     border: solid 5px var(--background);
     width: 37.5%;
     height: 200px;
-    margin-top:16px;
     overflow: clip;
 }
 
