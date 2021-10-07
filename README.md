@@ -8,4 +8,4 @@ This project is my personal portfolio to display my programming skils for employ
 * This portfolio also needs be viewable on various screens and devices. 
 
 ## Screenshot of Website
-![Website Screenshot](main\assets\images\ReadMe%20Image.PNG)
+https://github.com/mjc01002/MyPortfolio/blob/main/assets/images/ReadMe%20Image.PNG
