@@ -93,12 +93,7 @@ body{
     margin-top: 50px;
 }
 
-@media screen and (max-width: 600px) {
-    .aboutme {
-       margin-right:30px;
- 
-     }
-   }
+
 
 .aboutme h2{
   
@@ -110,6 +105,14 @@ body{
     margin-left: 65px;
     
 }
+
+/*media style to adjust margin on smaller screen */
+@media screen and (max-width: 600px) {
+    .aboutme h2 {
+       margin-left:20px;
+ 
+     }
+   }
 
 /*media style to remove headshot on smaller screen */
 @media screen and (max-width: 600px) {
@@ -146,6 +149,15 @@ body{
     flex-wrap: wrap;  
 }
 
+/*flex boxes and center for smaller screen*/
+@media screen and (max-width: 600px) {
+    .myworkboxes{
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+
+    }
+   }
 
 
 .mywork h2{
@@ -158,24 +170,16 @@ body{
     height: 600px;
     border-right: solid 5px var(--background);
 }
-
+/* adjust height for media screen */
 @media screen and (max-width: 600px) {
     .mywork h2 {
        margin-left:30px;
-       height: 200px;
+       height: 1000px;
  
      }
    }
 
 /*Mainwork Styles*/
-
-/*media style to highlight main work on smaller screen */
-@media screen and (max-width: 600px) {
-    .box2{
-        width: 100%;
-
-    }
-   }
 
 .mainwork {
     width: 75%;
@@ -185,6 +189,15 @@ body{
     background-image:url("/assets/images/Horiseon.PNG");
     overflow: clip;  
 }
+/* adjust size for samller screen*/
+@media screen and (max-width: 600px) {
+    .mainwork{
+        width: 50%;
+        height: 200px;
+        overflow: clip; 
+
+    }
+   }
 
 .mainwork h4{
     color:var(--background);
@@ -203,13 +216,7 @@ body{
 }
 
 /*Box 2 Styles*/
-/*media style to highlight main work on smaller screen */
-@media screen and (max-width: 600px) {
-    .box2{
-        display: none;
-    }
- 
-   }
+
 .box2{
     
     border: solid 5px var(--background);
@@ -236,13 +243,15 @@ body{
 }
 
 /*Box 3 Styles*/
-/*media style to highlight main work on smaller screen */
+
+/*media style to adjust margin on smaller screen */
 @media screen and (max-width: 600px) {
     .box3{
-        display: none;
+        margin-left:50px;
+
     }
- 
    }
+
 .box3{
     border: solid 5px var(--background);
     width: 37.5%;
@@ -266,13 +275,7 @@ body{
 }
 
 /*Box 4 Styles*/
-/*media style to highlight main work on smaller screen */
-@media screen and (max-width: 600px) {
-    .box4{
-        display: none;
-    }
- 
-   }
+
 .box4{
     border: solid 5px var(--background);
     width: 37.5%;
@@ -299,12 +302,12 @@ body{
 
 
 /*Box 5 Styles*/
-/*media style to highlight main work on smaller screen */
+/*media style to adjust margin on smaller screen */
 @media screen and (max-width: 600px) {
     .box5{
-        display: none;
+        margin-left:50px;
+
     }
- 
    }
 .box5{
     border: solid 5px var(--background);
@@ -334,12 +337,6 @@ body{
 
 }
 
-@media screen and (max-width: 600px) {
-    .contactme h2 {
-       margin-left:5px;
- 
-     }
-   }
 
 .contactme h2{
     color:var(--background);
@@ -351,6 +348,13 @@ body{
     height: 50px;
     
 }
+/*media style to adjust margin on smaller screen */
+@media screen and (max-width: 600px) {
+    .contactme h2 {
+       margin-left:20px;
+     }
+   }
+
 .contactme p{
     display: flex;
     flex-wrap: wrap;
@@ -358,7 +362,7 @@ body{
     padding: 10.17px;
     font-size: 1.55vw;
     justify-content: right;
-    margin-right: 15px;
+    margin-left: 25px;
 }
 
 /*Contact links*/
